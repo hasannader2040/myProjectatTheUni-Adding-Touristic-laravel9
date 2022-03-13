@@ -1,0 +1,52 @@
+/* 
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) { 
+    .contaniner {
+        background-color: green;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .contaniner{
+        background-color: red;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .contaniner{
+        background-color: yellow ;
+    } 
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .contaniner{
+        background-color: dodgerblue ;
+    } 
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {   .contaniner{
+    background-color: purple ;
+}  }
+
+.red-box {
+    background-color: red;
+
+}
+
+.green-box {
+    background-color: green;
+}
+
+.purple-box {
+    background-color: purple;
+}
+
